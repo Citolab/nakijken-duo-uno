@@ -34,8 +34,8 @@ import { UnoProgressBarComponent } from '../../uno/uno-progress-bar.component';
     }
 
     .review-toolbar {
-      background: var(--uno-color-surface-muted);
-      border: 1px solid var(--uno-color-border);
+      background: var(--app-color-surface);
+      border: 1px solid var(--app-color-border);
       padding: 1rem;
       display: flex;
       flex-direction: column;
@@ -43,7 +43,7 @@ import { UnoProgressBarComponent } from '../../uno/uno-progress-bar.component';
       font-size: 0.875rem;
       max-height: 100vh;
       overflow-y: auto;
-      box-shadow: 0 8px 20px rgb(15 23 42 / 0.08);
+      box-shadow: var(--app-shadow-raised);
     }
     .review-toolbar__progress-label {
       display: flex;
@@ -51,7 +51,7 @@ import { UnoProgressBarComponent } from '../../uno/uno-progress-bar.component';
       margin-bottom: 0.35rem;
     }
     .review-toolbar__answer-model p { margin: 0.35rem 0 0; white-space: pre-wrap; }
-    .review-toolbar__hint { margin: 0; color: var(--uno-color-muted); font-size: 0.75rem; }
+    .review-toolbar__hint { margin: 0; color: var(--app-color-muted); font-size: 0.75rem; }
   `,
 })
 export class ReviewToolbarComponent {

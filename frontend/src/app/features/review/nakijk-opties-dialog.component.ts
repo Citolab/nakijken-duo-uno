@@ -107,10 +107,10 @@ const DEMO_ASSESSMENT_ID = 'demo';
 
     .nakijk-opties-dialog {
       width: min(100%, 24rem);
-      background: #fff;
+      background: var(--app-color-surface);
       border-radius: 0.75rem;
       box-shadow: 0 20px 40px rgb(15 23 42 / 0.18);
-      color: var(--uno-color-text, #1f2937);
+      color: var(--app-color-text);
     }
 
     .nakijk-opties-dialog__header {
@@ -119,7 +119,7 @@ const DEMO_ASSESSMENT_ID = 'demo';
       justify-content: space-between;
       gap: 1rem;
       padding: 1rem 1.25rem;
-      border-bottom: 1px solid var(--uno-color-border);
+      border-bottom: 1px solid var(--app-color-border);
     }
 
     .nakijk-opties-dialog__header h2 {
@@ -134,15 +134,15 @@ const DEMO_ASSESSMENT_ID = 'demo';
       justify-content: center;
       border: none;
       background: transparent;
-      color: var(--uno-color-muted);
+      color: var(--app-color-muted);
       cursor: pointer;
       padding: 0.25rem;
       border-radius: 0.375rem;
     }
 
     .nakijk-opties-dialog__close:hover {
-      background: var(--uno-color-surface-muted);
-      color: var(--uno-color-text, #1f2937);
+      background: var(--app-color-surface-muted);
+      color: var(--app-color-text);
     }
 
     .nakijk-opties-dialog__body {
@@ -162,8 +162,8 @@ const DEMO_ASSESSMENT_ID = 'demo';
 
     .nakijk-opties-dialog__segmented {
       display: inline-flex;
-      border: 1px solid var(--uno-color-border);
-      background: #fff;
+      border: 1px solid var(--app-color-border);
+      background: var(--app-color-surface);
       border-radius: 999px;
       overflow: hidden;
     }
@@ -178,7 +178,7 @@ const DEMO_ASSESSMENT_ID = 'demo';
     }
 
     .nakijk-opties-dialog__segmented button.is-active {
-      background: var(--uno-color-primary);
+      background: var(--app-color-action);
       color: #fff;
     }
 
@@ -186,7 +186,7 @@ const DEMO_ASSESSMENT_ID = 'demo';
       margin: 0;
       padding: 0 1.25rem 1.25rem;
       font-size: 0.75rem;
-      color: var(--uno-color-muted);
+      color: var(--app-color-muted);
     }
 
     .nakijk-opties-dialog__actions {
@@ -195,9 +195,9 @@ const DEMO_ASSESSMENT_ID = 'demo';
 
     .nakijk-opties-dialog__clear {
       width: 100%;
-      border: 1px solid #d14343;
-      background: #fff;
-      color: #b00020;
+      border: 1px solid var(--app-color-danger);
+      background: var(--app-color-surface);
+      color: var(--app-color-danger);
       border-radius: 0.5rem;
       padding: 0.55rem 0.85rem;
       font: inherit;
@@ -207,7 +207,7 @@ const DEMO_ASSESSMENT_ID = 'demo';
     }
 
     .nakijk-opties-dialog__clear:hover:not(:disabled) {
-      background: #fff5f5;
+      background: var(--app-color-danger-surface);
     }
 
     .nakijk-opties-dialog__clear:disabled {

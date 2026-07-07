@@ -186,9 +186,9 @@ export class QtiItemPreviewComponent implements AfterViewInit, OnDestroy {
     const style = document.createElement('style');
     style.textContent = `
       qti-assessment-item {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-family: var(--app-font-family, RijksoverheidSans, Helvetica, Arial, sans-serif);
         line-height: 1.6;
-        color: #374151;
+        color: var(--app-color-text, #2b2b2b);
       }
       qti-item-body img {
         display: block;

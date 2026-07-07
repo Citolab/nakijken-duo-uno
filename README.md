@@ -62,7 +62,7 @@ Vergelijkbaar met [CheckMate demo](https://checkmate-staging.citolab.nl/demo/ass
 ## UNO integratie
 
 1. Configureer `.npmrc` voor het DUO registry (zie [uno.duo.nl](https://uno.duo.nl))
-2. Installeer `@duo/uno-ng` packages
+2. Installeer `@uno/ng`, `@uno/styles` en `@uno/core`
 3. Vervang componenten in `frontend/src/app/uno/` door echte UNO imports
 
 ## Lokaal Docker-image testen

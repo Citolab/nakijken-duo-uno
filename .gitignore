@@ -44,3 +44,4 @@ frontend/dist/
 # Demo runtime state
 backend/demo-manual-scores.json
 .opencode
+.playwright-mcp/

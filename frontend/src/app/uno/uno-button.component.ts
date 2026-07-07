@@ -1,5 +1,5 @@
 /**
- * UNO-compatible button. Swap for `uno-ng-button` when DUO registry access is available.
+ * UNO-compatible button fallback. Prefer native `button[uno-ng-*]` once registry access is available.
  */
 import { Component, input } from '@angular/core';
 
@@ -9,41 +9,19 @@ import { Component, input } from '@angular/core';
   template: `
     <button
       [attr.type]="type()"
-      class="uno-button"
+      class="btn uno-button"
+      [class.btn--primary]="variant() === 'primary'"
+      [class.btn--tertiary]="variant() === 'ghost'"
+      [class.uno-button--primary]="variant() === 'primary'"
       [class.uno-button--secondary]="variant() === 'secondary'"
-      [class.uno-button--ghost]="variant() === 'ghost'"
+      [class.uno-button--tertiary]="variant() === 'ghost'"
       [disabled]="disabled()"
     >
       <ng-content />
     </button>
   `,
   styles: `
-    .uno-button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.5rem;
-      min-height: 2.5rem;
-      padding: 0 1rem;
-      border: 2px solid var(--uno-color-primary);
-      border-radius: 0;
-      background: var(--uno-color-primary);
-      color: #fff;
-      font: inherit;
-      font-weight: 600;
-      cursor: pointer;
-    }
-    .uno-button:hover:not(:disabled) { background: var(--uno-color-primary-hover); border-color: var(--uno-color-primary-hover); }
-    .uno-button:disabled { opacity: 0.5; cursor: not-allowed; }
-    .uno-button--secondary {
-      background: #fff;
-      color: var(--uno-color-primary);
-    }
-    .uno-button--ghost {
-      background: transparent;
-      border-color: transparent;
-      color: var(--uno-color-primary);
-    }
+    :host { display: inline-flex; }
   `,
 })
 export class UnoButtonComponent {

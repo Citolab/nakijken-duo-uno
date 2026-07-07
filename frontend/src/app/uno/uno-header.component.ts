@@ -19,28 +19,7 @@ import { Component, input } from '@angular/core';
     </header>
   `,
   styles: `
-    .uno-header {
-      background: var(--uno-color-primary);
-      color: #fff;
-      padding: 1.25rem 1.5rem;
-    }
-    .uno-header__inner {
-      max-width: 1400px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 1rem;
-    }
-    .uno-header__eyebrow {
-      margin: 0 0 0.25rem;
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      opacity: 0.85;
-    }
-    .uno-header__title { margin: 0; font-size: 1.5rem; font-weight: 700; }
-    .uno-header__subtitle { margin: 0.25rem 0 0; opacity: 0.9; }
+    :host { display: block; }
   `,
 })
 export class UnoHeaderComponent {

@@ -75,9 +75,9 @@ interface ReviewItemEntry {
     }
     .review-page__loading, .review-page__error {
       padding: 2rem 0;
-      color: var(--uno-color-muted);
+      color: var(--app-color-muted);
     }
-    .review-page__error { color: #b00020; }
+    .review-page__error { color: var(--app-color-danger); }
     .review-page__settings {
       display: inline-flex;
       align-items: center;

@@ -14,13 +14,13 @@
 }
 
 .qti-item-preview {
-  background: #fff;
-  border: 1px solid var(--uno-color-border);
+  background: var(--app-color-surface);
+  border: 1px solid var(--app-color-border);
   padding: 0.5rem;
   min-height: 12rem;
   max-height: 100vh;
   overflow-y: auto;
-  box-shadow: 0 8px 20px rgb(15 23 42 / 0.08);
+  box-shadow: var(--app-shadow-raised);
 }
 
 .qti-item-preview__frame {
@@ -47,18 +47,18 @@
   gap: 0.5rem;
   min-height: 12rem;
   margin: 0;
-  color: var(--uno-color-muted);
+  color: var(--app-color-muted);
 }
 
 .qti-item-preview__error {
-  color: #b00020;
+  color: var(--app-color-danger);
 }
 
 .qti-item-preview__spinner {
   width: 1.25rem;
   height: 1.25rem;
-  border: 2px solid var(--uno-color-border);
-  border-top-color: var(--uno-color-primary);
+  border: 2px solid var(--app-color-border);
+  border-top-color: var(--app-color-primary);
   border-radius: 999px;
   animation: qti-preview-spin 0.8s linear infinite;
 }

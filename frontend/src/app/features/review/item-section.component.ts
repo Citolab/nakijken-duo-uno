@@ -78,7 +78,7 @@ type ClusterGroup = { familyId: string | null; responses: UniqueResponse[] };
       gap: 0.25rem;
     }
     .item-section__cluster--multi {
-      border-left: 3px solid var(--uno-color-accent);
+      border-left: 3px solid var(--app-color-accent);
       padding-left: 0.25rem;
     }
   `,
