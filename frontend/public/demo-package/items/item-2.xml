@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-item xmlns="http://www.imsglobal.org/xsd/imsqtiasi_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqtiasi_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_asiv3p0p1_v1p0.xsd" identifier="item-2" title="Wat weet ik nog? – Fotosynthese 2" adaptive="false" time-dependent="false" xml:lang="en">
+  <qti-response-declaration identifier="RESPONSE" cardinality="single" base-type="identifier">
+    <qti-correct-response>
+      <qti-value>SIMPLE_CHOICE_344dc836-d696-4930-a9a7-da42d5b12885</qti-value>
+    </qti-correct-response>
+  </qti-response-declaration>
+  <qti-outcome-declaration identifier="SCORE" cardinality="single" base-type="float">
+    <qti-default-value>
+      <qti-value>0</qti-value>
+    </qti-default-value>
+  </qti-outcome-declaration>
+  <qti-outcome-declaration identifier="MAXSCORE" cardinality="single" base-type="float">
+    <qti-default-value>
+      <qti-value>1</qti-value>
+    </qti-default-value>
+  </qti-outcome-declaration>
+  <qti-item-body>
+        <p>
+              In afbeelding 1 is een prei getekend.
+        </p>
+        <img src="../assets/item-2-image-1.png" alt="Afbeelding met schets, tekening, Lijnillustraties, kunst  Door AI gegenereerde inhoud is mogelijk onjuist." width="153" height="174"/>
+        <p>
+              <strong>
+                    Afb. 1
+              </strong>
+        </p>
+        <qti-choice-interaction max-choices="1" class="qti-labels-upper-alpha" response-identifier="RESPONSE" data-correct-response="SIMPLE_CHOICE_344dc836-d696-4930-a9a7-da42d5b12885" data-score="1">
+              <qti-prompt>
+                    <p>
+                          In welke delen van deze groente kan fotosynthese plaatsvinden?
+                    </p>
+              </qti-prompt>
+              <qti-simple-choice identifier="SIMPLE_CHOICE_344dc836-d696-4930-a9a7-da42d5b12885">
+                    <p>
+                          Bladeren.
+                    </p>
+              </qti-simple-choice>
+              <qti-simple-choice identifier="SIMPLE_CHOICE_f8159190-bb36-447c-bb06-2cdf0abe2406">
+                    <p>
+                          Stengels.
+                    </p>
+              </qti-simple-choice>
+              <qti-simple-choice identifier="SIMPLE_CHOICE_6a0d1739-88b6-4aab-ba68-ba8d8ef33079">
+                    <p>
+                          Vruchten.
+                    </p>
+              </qti-simple-choice>
+              <qti-simple-choice identifier="SIMPLE_CHOICE_3c97ae39-e4d9-4e40-ba13-fed133b3443c">
+                    <p>
+                          Wortels.
+                    </p>
+              </qti-simple-choice>
+        </qti-choice-interaction>
+      </qti-item-body>
+  <qti-response-processing template="https://purl.imsglobal.org/spec/qti/v3p0/rptemplates/match_correct"/>
+</qti-assessment-item>

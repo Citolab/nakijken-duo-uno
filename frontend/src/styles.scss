@@ -1,0 +1,24 @@
+@import '@citolab/qti-components/item.css';
+
+:root {
+  --uno-color-primary: #154273;
+  --uno-color-primary-hover: #0f3154;
+  --uno-color-accent: #006847;
+  --uno-color-border: #d9dee9;
+  --uno-color-muted: #5f6875;
+  --uno-color-surface-muted: #f3f6fa;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+  font-family: 'RijksoverheidSansWeb', 'Segoe UI', system-ui, sans-serif;
+  color: #1a1a1a;
+  background: #eef2f7;
+}
+
+button, input, textarea, select { font: inherit; }
+
+a { color: var(--uno-color-primary); }

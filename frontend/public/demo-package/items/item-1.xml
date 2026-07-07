@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-item xmlns="http://www.imsglobal.org/xsd/imsqtiasi_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqtiasi_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_asiv3p0p1_v1p0.xsd" identifier="item-1" title="Wat weet ik nog? – Fotosynthese 1" adaptive="false" time-dependent="false" xml:lang="en">
+  <qti-response-declaration identifier="RESPONSE" cardinality="single" base-type="identifier">
+    <qti-correct-response>
+      <qti-value>SIMPLE_CHOICE_3aa9eef4-362c-44a4-a0c2-157702072e87</qti-value>
+    </qti-correct-response>
+  </qti-response-declaration>
+  <qti-outcome-declaration identifier="SCORE" cardinality="single" base-type="float">
+    <qti-default-value>
+      <qti-value>0</qti-value>
+    </qti-default-value>
+  </qti-outcome-declaration>
+  <qti-outcome-declaration identifier="MAXSCORE" cardinality="single" base-type="float">
+    <qti-default-value>
+      <qti-value>1</qti-value>
+    </qti-default-value>
+  </qti-outcome-declaration>
+  <qti-item-body>
+        <p>
+              Een plant kan zijn eigen voedsel maken.
+        </p>
+        <qti-choice-interaction max-choices="1" class="qti-labels-upper-alpha qti-orientation-horizontal qti-choices-stacking-1" response-identifier="RESPONSE" data-correct-response="SIMPLE_CHOICE_3aa9eef4-362c-44a4-a0c2-157702072e87" data-score="1">
+              <qti-prompt>
+                    <p>
+                          In welke delen van de plant wordt dit voedsel 
+                          <em>
+                                vooral 
+                          </em>
+                          gemaakt?
+                    </p>
+              </qti-prompt>
+              <qti-simple-choice identifier="SIMPLE_CHOICE_3aa9eef4-362c-44a4-a0c2-157702072e87">
+                    <p>
+                          In de bladeren.
+                    </p>
+              </qti-simple-choice>
+              <qti-simple-choice identifier="SIMPLE_CHOICE_c19e0adb-dbab-4ce0-bdc5-d4be094673bf">
+                    <p>
+                          In de stengels.
+                    </p>
+              </qti-simple-choice>
+              <qti-simple-choice identifier="SIMPLE_CHOICE_4f2f52b9-ccb3-49dd-8a7b-dc4cde1edc91">
+                    <p>
+                          In de wortels. 
+                    </p>
+              </qti-simple-choice>
+              <qti-simple-choice identifier="SIMPLE_CHOICE_5e950dcc-4f61-4b79-8594-37d9b126a823">
+                    <p>
+                          In de vruchten.
+                    </p>
+              </qti-simple-choice>
+        </qti-choice-interaction>
+      </qti-item-body>
+  <qti-response-processing template="https://purl.imsglobal.org/spec/qti/v3p0/rptemplates/match_correct"/>
+</qti-assessment-item>

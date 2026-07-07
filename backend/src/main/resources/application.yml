@@ -1,0 +1,14 @@
+server:
+  port: ${PORT:8080}
+
+spring:
+  application:
+    name: duo-nakijken-backend
+
+cors:
+  allowed-origins:
+    - http://localhost:4200
+
+demo:
+  fixture-path: classpath:demo-fixture.json
+  manual-scores-path: demo-manual-scores.json

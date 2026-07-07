@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-item xmlns="http://www.imsglobal.org/xsd/imsqtiasi_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqtiasi_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_asiv3p0p1_v1p0.xsd" identifier="item-9" title="Wat weet ik nog? – Fotosynthese 9" adaptive="false" time-dependent="false" xml:lang="en">
+  <qti-response-declaration identifier="RESPONSE" cardinality="single" base-type="identifier">
+    <qti-correct-response>
+      <qti-value>SIMPLE_CHOICE_5cf24b56-2cd3-402e-9ee5-7fe5d5b66369</qti-value>
+    </qti-correct-response>
+  </qti-response-declaration>
+  <qti-outcome-declaration identifier="SCORE" cardinality="single" base-type="float">
+    <qti-default-value>
+      <qti-value>0</qti-value>
+    </qti-default-value>
+  </qti-outcome-declaration>
+  <qti-outcome-declaration identifier="MAXSCORE" cardinality="single" base-type="float">
+    <qti-default-value>
+      <qti-value>1</qti-value>
+    </qti-default-value>
+  </qti-outcome-declaration>
+  <qti-item-body>
+        <qti-choice-interaction max-choices="1" class="qti-labels-upper-alpha" response-identifier="RESPONSE" data-correct-response="SIMPLE_CHOICE_5cf24b56-2cd3-402e-9ee5-7fe5d5b66369" data-score="1">
+              <qti-prompt>
+                    <p>
+                          Welke organismen leven van het voedsel dat planten maken?
+                    </p>
+              </qti-prompt>
+              <qti-simple-choice identifier="SIMPLE_CHOICE_12ddd7d7-3003-47bd-ba2b-54a4c611a5b7">
+                    <p>
+                          Alleen de planten zelf.
+                    </p>
+              </qti-simple-choice>
+              <qti-simple-choice identifier="SIMPLE_CHOICE_541656da-5b36-4f71-983e-a3e7d4fb3ec4">
+                    <p>
+                          Alleen mensen en dieren.
+                    </p>
+              </qti-simple-choice>
+              <qti-simple-choice identifier="SIMPLE_CHOICE_5cf24b56-2cd3-402e-9ee5-7fe5d5b66369">
+                    <p>
+                          De planten zelf, mensen en dieren.
+                    </p>
+              </qti-simple-choice>
+        </qti-choice-interaction>
+      </qti-item-body>
+  <qti-response-processing template="https://purl.imsglobal.org/spec/qti/v3p0/rptemplates/match_correct"/>
+</qti-assessment-item>

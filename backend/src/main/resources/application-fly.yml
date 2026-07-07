@@ -1,0 +1,8 @@
+server:
+  port: ${PORT:8080}
+
+demo:
+  manual-scores-path: ${DEMO_MANUAL_SCORES_PATH:/data/demo-manual-scores.json}
+
+cors:
+  allowed-origins: []

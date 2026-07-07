@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.imsglobal.org/xsd/qti/qtiv3p0/imscp_v1p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/qti/qtiv3p0/imscp_v1p1 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqtiv3p0_imscpv1p2_v1p0.xsd" identifier="Gonneke-13-05-2026-manifest">
+  <metadata>
+    <schema>QTI Package</schema>
+    <schemaversion>3.0.0</schemaversion>
+  </metadata>
+  <organizations/>
+  <resources>
+    <resource identifier="Gonneke-13-05-2026-test" type="imsqti_test_xmlv3p0" href="assessment-test.xml">
+      <file href="assessment-test.xml"/>
+      <dependency identifierref="item-1"/>
+      <dependency identifierref="item-2"/>
+      <dependency identifierref="item-3"/>
+      <dependency identifierref="item-4"/>
+      <dependency identifierref="item-5"/>
+      <dependency identifierref="item-6"/>
+      <dependency identifierref="item-7"/>
+      <dependency identifierref="item-8"/>
+      <dependency identifierref="item-9"/>
+      <dependency identifierref="item-10"/>
+      <dependency identifierref="item-11"/>
+      <dependency identifierref="item-12"/>
+      <dependency identifierref="item-13"/>
+      <dependency identifierref="item-14"/>
+      <dependency identifierref="item-15"/>
+      <dependency identifierref="item-16"/>
+    </resource>
+    <resource identifier="item-1" type="imsqti_item_xmlv3p0" href="items/item-1.xml">
+      <file href="items/item-1.xml"/>
+
+    </resource>
+    <resource identifier="item-2" type="imsqti_item_xmlv3p0" href="items/item-2.xml">
+      <file href="items/item-2.xml"/>
+      <dependency identifierref="asset-item-2-image-1"/>
+    </resource>
+    <resource identifier="item-3" type="imsqti_item_xmlv3p0" href="items/item-3.xml">
+      <file href="items/item-3.xml"/>
+
+    </resource>
+    <resource identifier="item-4" type="imsqti_item_xmlv3p0" href="items/item-4.xml">
+      <file href="items/item-4.xml"/>
+
+    </resource>
+    <resource identifier="item-5" type="imsqti_item_xmlv3p0" href="items/item-5.xml">
+      <file href="items/item-5.xml"/>
+
+    </resource>
+    <resource identifier="item-6" type="imsqti_item_xmlv3p0" href="items/item-6.xml">
+      <file href="items/item-6.xml"/>
+
+    </resource>
+    <resource identifier="item-7" type="imsqti_item_xmlv3p0" href="items/item-7.xml">
+      <file href="items/item-7.xml"/>
+
+    </resource>
+    <resource identifier="item-8" type="imsqti_item_xmlv3p0" href="items/item-8.xml">
+      <file href="items/item-8.xml"/>
+
+    </resource>
+    <resource identifier="item-9" type="imsqti_item_xmlv3p0" href="items/item-9.xml">
+      <file href="items/item-9.xml"/>
+
+    </resource>
+    <resource identifier="item-10" type="imsqti_item_xmlv3p0" href="items/item-10.xml">
+      <file href="items/item-10.xml"/>
+      <dependency identifierref="asset-item-10-image-2"/>
+    </resource>
+    <resource identifier="item-11" type="imsqti_item_xmlv3p0" href="items/item-11.xml">
+      <file href="items/item-11.xml"/>
+
+    </resource>
+    <resource identifier="item-12" type="imsqti_item_xmlv3p0" href="items/item-12.xml">
+      <file href="items/item-12.xml"/>
+
+    </resource>
+    <resource identifier="item-13" type="imsqti_item_xmlv3p0" href="items/item-13.xml">
+      <file href="items/item-13.xml"/>
+
+    </resource>
+    <resource identifier="item-14" type="imsqti_item_xmlv3p0" href="items/item-14.xml">
+      <file href="items/item-14.xml"/>
+      <dependency identifierref="asset-item-14-image-3"/>
+      <dependency identifierref="asset-item-14-image-4"/>
+    </resource>
+    <resource identifier="item-15" type="imsqti_item_xmlv3p0" href="items/item-15.xml">
+      <file href="items/item-15.xml"/>
+
+    </resource>
+    <resource identifier="item-16" type="imsqti_item_xmlv3p0" href="items/item-16.xml">
+      <file href="items/item-16.xml"/>
+
+    </resource>
+    <resource identifier="asset-item-2-image-1" type="associatedcontent/learning-application-resource" href="assets/item-2-image-1.png">
+      <file href="assets/item-2-image-1.png"/>
+    </resource>
+    <resource identifier="asset-item-10-image-2" type="associatedcontent/learning-application-resource" href="assets/item-10-image-2.png">
+      <file href="assets/item-10-image-2.png"/>
+    </resource>
+    <resource identifier="asset-item-14-image-3" type="associatedcontent/learning-application-resource" href="assets/item-14-image-3.jpeg">
+      <file href="assets/item-14-image-3.jpeg"/>
+    </resource>
+    <resource identifier="asset-item-14-image-4" type="associatedcontent/learning-application-resource" href="assets/item-14-image-4.jpeg">
+      <file href="assets/item-14-image-4.jpeg"/>
+    </resource>
+  </resources>
+</manifest>
